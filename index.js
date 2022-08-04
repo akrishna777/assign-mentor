@@ -25,6 +25,7 @@ app.use('/', (req, res) => {
   res.send('Welcome to student mentor API')
 })
 
+// Use the below mongodb cluster for running the app
 // const CONNECTION_URL =
 //   'mongodb+srv://student-mentor:student-mentor123@cluster0.hflsi.mongodb.net/?retryWrites=true&w=majority'
 
