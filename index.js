@@ -36,6 +36,6 @@ mongoose
     useUnifiedTopology: true,
   })
   .then(() => console.log('Connected to MongoDB'))
-  .catch((err) => console.log('Could not connect to MongoDB'))
+  .catch((err) => console.log(err))
 
 app.listen(PORT, () => console.log(`Server is listening on Port:${PORT}`))
